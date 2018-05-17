@@ -1,4 +1,4 @@
-// Proximity Actuator by Donovan Magryta 1/20/2017
+// Proximity Actuator 1/20/2017
 
 //Shopping list: 
 //NodeMCU ESP8266 Lolin V3 microcontroller: http://www.gearbest.com/transmitters-receivers-module/pp_366523.html?wid=21
