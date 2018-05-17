@@ -1,7 +1,7 @@
 // Proximity Actuator by Donovan Magryta 1/20/2017
 
 //Shopping list: 
-//NodeMCU ESP8266 microcontroller: http://www.gearbest.com/transmitters-receivers-module/pp_366523.html?wid=21
+//NodeMCU ESP8266 Lolin V3 microcontroller: http://www.gearbest.com/transmitters-receivers-module/pp_366523.html?wid=21
 //SG90 Servo Motor: http://www.gearbest.com/power/pp_235842.html?wid=21
 //USB Power Bank or USB wall adapter. I bought a super thin portable power bank at the Five Below store for $5 US Dollars, but you could buy one pretty much anywhere.
 
@@ -45,7 +45,7 @@
 #define D10 1 // TX0 (Serial console)
 Servo myservo; //Create a servo object named myservo
 //Phone or additional ESP8266 module set to hotspot AP mode:
-const char* ssid = "DroneBeacon1"; //Put your hotspot name inside the quotes
+const char* ssid = "ProxBeacon"; //Put your phone or beacon hotspot name inside the quotes
 const char* password = "12345678910"; //Put your hotspot password inside the quotes
 
 void setup(){
